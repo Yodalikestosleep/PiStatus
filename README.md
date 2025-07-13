@@ -21,3 +21,6 @@ You can also add it to alias in bashrc
 2. add alias pistatus='bash /path/to/pistatus.sh'
 3. reload your shell or logout.
 4. run with pistatus
+
+*change the storage device "/dev/nvme0" with your device and edit the Temperature sensor
+This script was made and tested on Raspberry-pi 5 with NVMe.
