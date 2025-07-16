@@ -13,8 +13,12 @@ A simple Bash script that displays Raspberry Pi system status information.
 
 +Requirements
 - Need vcgencmd (included with Raspberry-pi os)
-- Need nvme-cli 
-- Need bc
+- Need nvme-cli ```bash
+  sudo apt install nvme-cli
+  ```
+- Need bc ```bash
+  sudo apt install bc
+  ```
 
 You can also add it to alias in bashrc
 1. go to ~/.bashrc
